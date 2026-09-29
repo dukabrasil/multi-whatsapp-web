@@ -1,12 +1,13 @@
 {
-  "name": "multi-whatsapp",
+  "name": "multi-whatsapp-web",
   "version": "1.0.0",
-  "description": "Painel para múltiplos WhatsApp Web",
-  "main": "main.js",
+  "description": "Painel Multi WhatsApp Web online",
+  "main": "server.js",
   "scripts": {
-    "start": "electron ."
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "electron": "^44.4.5"
+  "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0"
   }
 }
